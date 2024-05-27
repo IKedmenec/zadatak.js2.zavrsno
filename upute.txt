@@ -1,0 +1,20 @@
+zadatak:
+
+Napraviti html stranicu koja ima 2 input boxa u koje možemo unijeti samo brojeve.
+Dodati na stranicu treći input box koji je readonly u koji će se ispisati rezultat izračunavanja.
+Dodati na stranicu button koj ice na onclick event pozvati funkciju iz javascripta
+Dodatak za vecu ocjenu:
+-  dodati button koji ce random unijeti dva broja u input boxove i odraditi automatsko izracunavanje
+
+Napraviti javascript sa funkcijom koja će raditi sljedeće:
+- za parametre prima 2 ulazna podatka
+- provjeriti da su ulazni podaci brojevi
+- u slučaju da je jedan od podataka krivi, odnosno nije broj, u label ispisati grešku, odnosno rezultat funkcije 
+  (funkcija mora vratiti točnu grešku)
+- u slučaju da su ulazni parametri ispravni odraditi sljedeće:
+  - vratiti rezultat koji je od dva ulazna broje veći
+  - ukoliko su oba broja jednaka, vratiti prvi
+
+- css-om odraditi sljedeće: 
+ - ukoliko je funkcija vratila ispravnu vrijednost obojati pozadinu trećeg textbox-a u zelenu boju
+ - ukoliko je funkcija vratila grešku obojati pozadinu trećeg textbox-a u crvenu boju
